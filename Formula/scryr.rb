@@ -1,26 +1,26 @@
 class Scryr < Formula
   desc "Architecture maps and manifest CLI"
   homepage "https://github.com/scryr-app/scryr-dev"
-  version "0.6.3"
+  version "0.7.0"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.6.3/scryr-darwin-aarch64.tar.gz"
-      sha256 "c7dc838ecab1336fb4f1a1585d060d37906533b0bac45a9188cf95abbb84b965"
+      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.7.0/scryr-darwin-aarch64.tar.gz"
+      sha256 "440fc157309f39b18fcd659494bccaf7531adf533738b9e1ded3313483f81833"
     end
     on_intel do
-      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.6.3/scryr-darwin-x86_64.tar.gz"
-      sha256 "fe8272876a2b79bdb7641c56e828e9d68d8babbad1a718b1052c53cd6a11b10a"
+      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.7.0/scryr-darwin-x86_64.tar.gz"
+      sha256 "d91e84c67b2dc32427f4e3703831e824c5849130de25bf299ac5ead1e0ab5651"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.6.3/scryr-linux-aarch64.tar.gz"
-      sha256 "5f1faab1d46c8900979aaa5fe9fc07faa00034eaccebbed53da9a3d49a5c8cc7"
+      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.7.0/scryr-linux-aarch64.tar.gz"
+      sha256 "c1218341560b6db53e80ac5209bd4e599a17391a2c432d0a498882846b2a5140"
     end
     on_intel do
-      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.6.3/scryr-linux-x86_64.tar.gz"
-      sha256 "5392fedc42c03b51929e00f871390e28a30dbd6c6834bbca8dcd4d231c657888"
+      url "https://github.com/scryr-app/scryr-dev/releases/download/v0.7.0/scryr-linux-x86_64.tar.gz"
+      sha256 "a6f65a2a6dc274f9d9e04175e55db1b3317874cfb356d1b986f61c575ca5f348"
     end
   end
   def install
